@@ -9,7 +9,8 @@
    plugins: [
      new CleanWebpackPlugin(['dist']),
      new HtmlWebpackPlugin({
-       title: 'Production'
+      title: 'Production',
+      template: 'src/index.html'
      })
   ],
   output: {
